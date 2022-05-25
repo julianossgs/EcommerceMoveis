@@ -1,0 +1,694 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Descrição do site p/ os buscadores do google">
+    <meta name="keywords" content="Palavras chaves p/ consulta do site" />
+    <meta name="author" content="Juliano Pereira Cândido">
+    <link rel="icon" type="image/png" href="~/img/recommend/logo.png">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="~/Content/default.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Index</title>
+</head>
+<body>
+    <!--seção 1 Navbar-->
+    <section>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg" style="background-color:#c7a379;" id="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="~/Img/testimonals/logo.png" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search" id="navbar-busca">
+                                <input class="form-control me-1" type="search" placeholder="Buscar produtos..." aria-label="Search">
+                                <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button>
+                            </form>
+                        </div>
+
+                        <form class="d-flex" role="search" id="navbar-items">
+
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <i class="bi bi-heart"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <i class="bi bi-cart"></i>
+                                        <span class="badge bg-light text-dark">7</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-person-circle"></i>
+                                        Juliano Pereira Cândido
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li><a class="dropdown-item" href="#">Minhas compras</a></li>
+
+                                        <li><a class="dropdown-item" href="#">Sair</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+
+
+    </section>
+
+    <!--Seção 2 carousel 1-->
+   
+    <div class="container-fluid" id="carousel_1">
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/Img/Banners/12.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <div id="caption_1">
+                            <p>
+                                Ao contrário da crença popular,
+                            </p>
+                            <p>Lorem Ipsum não é simplesmente</p>
+
+                        </div>
+                        <div id="caption_2">
+                            <p>VENDA ATÉ</p>
+                            <p><span>80% DE </span>DESCONTO</p>
+                            <button type="button" class="btn btn-outline-secondary">
+                                Compre agora&nbsp;&nbsp;<i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Img/Banners/13.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div id="caption_1">
+                            <p>
+                                Ao contrário da crença popular,
+                            </p>
+                            <p>Lorem Ipsum não é simplesmente</p>
+
+                        </div>
+                        <div id="caption_2">
+                            <p>VENDA ATÉ</p>
+                            <p><span>80% DE </span>DESCONTO</p>
+                            <button type="button" class="btn btn-outline-secondary">
+                                Compre agora&nbsp;&nbsp;<i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Img/Banners/14.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div id="caption_1">
+                            <p>
+                                Ao contrário da crença popular,
+                            </p>
+                            <p>Lorem Ipsum não é simplesmente</p>
+
+                        </div>
+                        <div id="caption_2">
+                            <p>VENDA ATÉ</p>
+                            <p><span>80% DE </span>DESCONTO</p>
+                            <button type="button" class="btn btn-outline-secondary">
+                                Compre agora&nbsp;&nbsp;<i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Img/Banners/81.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div id="caption_1">
+                            <p>
+                                Ao contrário da crença popular,
+                            </p>
+                            <p>Lorem Ipsum não é simplesmente</p>
+
+                        </div>
+                        <div id="caption_2">
+                            <p>VENDA ATÉ</p>
+                            <p><span>80% DE </span>DESCONTO</p>
+                            <button type="button" class="btn btn-outline-secondary">
+                                Compre agora&nbsp;&nbsp;<i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <!--Secao 3 cards-->
+    <section>
+        <div class="container-fluid mb-4" id="card">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div>
+                        <div class="icon">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h5>Frete grátis</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-3">
+                    <div>
+                        
+                            <div class="icon">
+                                <i class="bi bi-bag"></i>
+                            </div>
+                            <h5>Pagamento 100% seguro</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col-sm-3">
+                    <div>
+                       
+                            <div class="icon">
+                                <i class="bi bi-headphones"></i>
+                            </div>
+                            <h5>Suporte</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                       
+                    </div>
+                    
+                </div>
+                <div class="col-sm-3">
+                    <div>
+                        
+                            <div class="icon">
+                                <i class="bi bi-box"></i>
+                            </div>
+                            <h5>Dinheiro - Devoluções</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Secao 4 Carousel 2-->
+    <div class="container-fluid" id="carousel_2">
+        <div class="titulo">
+            <h4>Cadeira</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+                        <div class="col-sm-3">
+
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div>
+                                <a href="#" class="btn btn-light">30% desconto</a>
+                                <i class="bi bi-heart"></i>
+
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="~/Img/offers/31.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="conteudo">
+                                <a href="#">
+                                    <p class="produto">Cadeira</p>
+                                    <h5>Cadeira de asa</h5>
+                                </a>
+                                <p class="preco">$ 75,00 &nbsp;<del>$ 98,25</del></p>
+                                <h6>2 PÇS</h6>
+                                <br />
+                                <button class="btn btn-light" id="btn_add">Adicionar</button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <!--Seção 5 -->
+    <section>
+        <div class="container-fluid" id="secao_5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="img_1" style="background-image:url('../Img/dicount_banner/11.jpg')">
+                        <div class="text_1">
+                            <p id="desconto">Desconto 50%</p>
+                            <h4>Curator Não Sofá</h4>
+                            <p id="descricao">Lorem ipsum dolor sit amet,consectetur</p>
+                            <a href="#" class="btn btn-light">Compre agora</a>
+
+                        </div>
+                           
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img_1" style="background-image:url('../Img/dicount_banner/21.jpg')">
+                        <div class="text_1">
+                            <p id="desconto">Desconto 50%</p>
+                            <h4>Curator Não Sofá</h4>
+                            <p id="descricao">Lorem ipsum dolor sit amet,consectetur</p>
+                            <a href="#" class="btn btn-light">Compre agora</a>
+                        </div>
+                           
+                        
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Seção 6 Clientes-->
+    <section>
+        <div class="container-fluid" id="cliente">
+            <div>
+                <h2>O Que Os Clientes Dizem</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="~/Img/testimonals/1.jpg" class="d-block" alt="...">
+                                <p id="p_1">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                                
+                                <h5>Anna Wright</h5>
+                                <p id="p_2">CEO</p>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <img src="~/Img/testimonals/2.jpg" class="d-block" alt="...">
+                                <p id="p_1">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                                
+                                <h5>Jonh Deon</h5>
+                                <p id="p_2">GERENTE</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                                <img src="~/Img/testimonals/1.jpg" class="d-block" alt="...">
+                                <p id="p_1">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+
+                                <h5>Anna Wright</h5>
+                                <p id="p_2">CEO</p>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <img src="~/Img/testimonals/2.jpg" class="d-block" alt="...">
+                                <p id="p_1">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+
+                                <h5>Jonh Deon</h5>
+                                <p id="p_2">GERENTE</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Seção 7 Contato-->
+    <section>
+        <nav class="navbar" id="contato">
+            <div class="container-fluid">
+                <div>
+                    <h1>Ao contrário da crença popular, Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                </div>
+               
+                
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Endereço de email" aria-label="Search">
+                    <button  class="btn btn-light" type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </nav> 
+    </section>
+
+    <!--Seção 8 footer-->
+    <footer>
+        <div class="container" id="footer">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h4>
+                        Encontre uma loja
+                        Cartões de presente da loja
+                    </h4>
+                    <div>
+                        <p>Siga-nos:</p>
+                        <button class="btn btn-outline-secondary"><i class="bi bi-facebook"></i></button>
+                        <button class="btn btn-outline-secondary"><i class="bi bi-twitter"></i></button>
+                        <button class="btn btn-outline-secondary"> <i class="bi bi-instagram"></i></button>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h4>
+                        Centro de ajuda
+                    </h4>
+                    <ul>
+                        <li><a href="#">Pagamentos</a></li>
+                        <li><a href="#">Envio</a></li>
+                        <li><a href="#">Devoluções de produtos</a></li>
+                        <li><a href="#">Perguntas frequentes</a></li>
+                        <li><a href="#">Confira</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-2">
+                    <h4>
+                        Links Úteis
+
+                    </h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Minhas ordens</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-4">
+                    <h4>
+                        Entre em contato conosco
+                    </h4>
+                    <ul>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i>&nbsp;Sua localização</a></li>
+                        <li><a href="#"><i class="bi bi-telephone-fill"></i>&nbsp;0800-0000-0000</a></li>
+                        <li><a href="#"><i class="bi bi-envelope-fill"></i>&nbsp;exemplo@exemplo.com.br</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-2">
+                    <h4>
+                        Categorias
+                    </h4>
+                    <ul>
+                        <li><a href="#">Cadeira</a></li>
+                        <li><a href="#">Sofá</a></li>
+                        <li><a href="#">Mesa de jantar</a></li>
+                        <li><a href="#">Lâmpada de mesa</a></li>
+                        <li><a href="#">Escrivaninha</a></li>
+                        <li><a href="#">armários</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>&copy;&nbsp;2022 <a href="#">Site.com&nbsp;</a>Todos os direitos reservados</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+        
+
+</body>
+</html>

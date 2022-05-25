@@ -1,0 +1,431 @@
+﻿/* Estilos gerais do site */
+* {
+    font-family: 'Roboto',sans-serif;
+    
+}
+
+body {
+    background-color: #f0f1f2;
+}
+
+
+
+/* Secao 1 Navbar */
+#navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar .navbar-brand img{
+    text-align:left;
+}
+    #navbar .navbar-nav li {
+        margin-left: 0.5em;
+    }
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar button {
+    color: #fff;
+    background-color: #c7a379;
+}
+
+#navbar li {
+    position: relative;
+}
+
+#navbar i {
+    font-size: 20px;
+}
+
+#navbar span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#navbar-busca{
+    justify-content:end;
+    display:flex;
+}
+
+#navbar-items {
+    justify-content: end;
+    background-color: #c7a379;
+}
+
+
+/* Seção 2 Carousel 1*/
+#caption_1 p{
+    font-family: 'Dosis', cursive;
+    font-weight: 800;
+    font-size:37px;
+    color:#c9c3c3;
+    line-height: 47px;
+    padding-left:0;
+}
+
+#caption_2 p {
+    font-size: 25px;
+    color: #c9c3c3;
+    font-weight:700;
+}
+
+#caption_2 span{
+    color: #c7a379;
+
+}
+
+#caption_2 button {
+    width:180px;
+    height:45px;
+    color: #fff;
+    border-radius: 7%;
+    background-color: #c7a379;
+    padding-bottom:7px;
+}
+
+#caption_2 button i{
+   
+    font-size:17px;
+}
+
+#caption_2 button:hover{
+    background-color:black;
+}
+
+
+/*Secão 3 cards */
+    
+    #card{
+       margin-top:50px;
+       margin-left:60px;
+    }
+
+
+    #card .icon {
+        width: 55px;
+        height: 55px;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        background-color: #c7a379;
+        border-radius: 50%;
+        
+    }
+
+    #card h5{
+        padding-top:30px;
+    }
+
+
+    /*Seção 4 carousel 2*/
+
+#carousel_2 {
+    padding-bottom:15px;
+    padding-left:3px;
+    padding-right:3px;
+   
+}
+
+    #carousel_2 .col-sm-3 {
+        border: 1px solid #c1c2be;
+        font-family: 'Dosis', cursive;
+    }
+
+.titulo h4 {
+    font-family: 'Dosis', cursive;
+    font-size: 42px;
+   
+}
+
+.titulo p {
+    font-family: 'Dosis', cursive;
+    font-size: 20px;
+    color: #7f807c;
+}
+
+#carousel_2 .btn-light {
+    background-color: #c7a379;
+    color: #fff;
+    border-radius: 5px;
+    width: 160px;
+    height: 34px;
+    margin-top:8px;
+}
+
+    #carousel_2 i{
+        font-size:22px;
+        float:right;
+        padding-right:15px;
+    }
+
+        #carousel_2 i:hover {
+            color: #a80d0d;
+        }
+
+#carousel_2 img{
+   margin-top:10px;
+   width:80%;
+   height:80%;
+   padding-left:70px;
+   padding-top:40px;
+   padding-bottom:40px;
+}
+
+#carousel_2 .produto {
+    color: #7f807c;
+    padding-left:17px;
+    
+}
+
+#carousel_2 h5{
+    padding-left:17px;
+   
+}
+
+.conteudo a{
+    text-decoration:none;
+    color:black;
+}
+
+
+    .conteudo a :hover {
+        color: #a80d0d;
+    }
+
+#carousel_2 .preco {
+    color: #c7a379;
+    padding-left: 17px;
+}
+
+#carousel_2 del{
+    color:black;
+}
+
+#carousel_2 h6{
+    padding-left:17px;
+}
+
+ #btn_add {
+    margin-bottom:8px;
+}
+
+    #btn_add:hover {
+        background-color: #a80d0d;
+    }
+
+    /* Seção 5 */
+    #secao_5{
+        padding-top:30px;
+    }
+
+.img_1{
+   width:100%;
+   height:390px;
+  
+   border-radius:30px;
+}
+
+#secao_5 .text_1 {
+    font-family: 'Dosis', cursive;
+    padding-left: 65px;
+    padding-top: 80px;
+}
+
+#desconto {
+    color: #c7a379;
+    font-weight:700;
+    font-size:19px;
+}
+
+#secao_5 h4{
+    font-weight:700;
+    font-size:28px;
+}
+
+#descricao {
+    color: #7f807c;
+    padding-bottom:13px;
+}
+
+#secao_5 a {
+    background-color: #c7a379;
+    color:#fff;
+    border-radius: 6px;
+}
+
+#secao_5 a:hover{
+    background-color:black;
+}
+
+/* Seção 6 Clientes */
+#cliente {
+    
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+    #cliente h2 {
+        font-weight: 800;
+        font-family: 'Dosis', cursive;
+    }
+
+    #cliente p {
+        color: #7f807c;
+    }
+
+    #cliente img{
+        padding-top:15px;
+        padding-left:15px;
+    }
+
+    #p_1{
+        font-size:19px;
+        padding-left:30px;
+        padding-top:13px;
+    }
+
+    #cliente h5{
+      text-align:center;
+      font-weight:700;
+    }
+
+#p_2 {
+    text-align: center;
+    
+}
+
+
+/* Seção 7 Contato */
+ .navbar{
+     margin-top:30px;
+     height:135px;
+     background-color:gray;
+     border-radius:5px;
+     color:#fff;
+}
+
+#contato button {
+    width: 160px;
+    color: #fff;
+    background-color: #c7a379;
+}
+
+#contato button:hover{
+    background-color:black;
+}
+
+
+    /* Seção 8 Footer */
+#footer {
+   
+    margin-top: 65px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+    #footer h4 {
+        font-weight: 800;
+        font-family: 'Dosis', cursive;
+        padding-bottom:30px;
+    }
+
+    #footer ul {
+        padding-left: 0;
+       
+    }
+
+    #footer li {
+        list-style: none;
+        line-height: 34px;
+       
+    }
+
+    #footer a {
+        text-decoration: none;
+        color: #7f807c;
+        padding-left: 0;
+    }
+
+        #footer a:hover {
+            color: #a80d0d;
+        }
+
+    #footer .col-sm-12{
+        text-align:center;
+    }
+
+        #footer .col a:hover {
+            color: #a80d0d;
+        }
+
+
+
+/* Media query */
+/* p/ telas menores de 500px*/
+@media(max-width:500px) {
+    #navbar .navbar-nav {
+        background-color:bisque;
+    }
+
+    #navbar .navbar-brand img{
+        text-align:center;
+    }
+
+    #navbar-items{
+        min-width:80%;
+        display:flex;
+    }
+
+    #search-forms{
+        min-width:50%;
+        margin:0;
+    }
+
+    /* Secao 4 Carousel 2 */
+    #carousel_2 h4, p{
+        text-align:center;
+    }
+
+    #carousel_2 .conteudo{
+        text-align:center;
+    }
+
+    /* Seção 5 */
+    #secao_5 .text_1{
+        margin-bottom:15px;
+    }
+    .text_1 h4, p, a{
+        text-align:left;
+    }
+
+     #secao_5 .text_1 h4{
+        font-size:23px;
+    }
+
+    /* Seção 6 Clientes */
+    #cliente h2, img{
+        text-align:center;
+    }
+
+    /*Seção 7 Contato */
+    .navbar {
+        margin-top: 30px;
+        height: 195px;
+        background-color: gray;
+        border-radius: 5px;
+        color: #fff;
+    }
+   
+}
